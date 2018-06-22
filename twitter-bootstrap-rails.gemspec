@@ -20,11 +20,11 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'railties', '~> 5.0', '>= 5.0.1'
   s.add_dependency 'actionpack', '~> 5.0', '>= 5.0.1'
-  s.add_dependency 'sass-rails',
+  s.add_dependency 'sass-rails'
 
   s.add_runtime_dependency 'execjs', '~> 2.7'
   s.add_development_dependency 'rails', '~> 5.0', '>= 5.0.1'
-  s.add_development_dependency 'sass',
+  s.add_development_dependency 'sass-rails',
   s.add_development_dependency 'therubyracer', '~> 0.12'
 
   s.post_install_message = "Important: You may need to add a javascript runtime to your Gemfile in order for bootstrap's LESS files to compile to CSS. \n\n" \
