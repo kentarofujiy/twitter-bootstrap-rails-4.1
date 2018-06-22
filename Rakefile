@@ -16,13 +16,13 @@ task :bundle_install do
   sh('bundle install')
 end
 
-desc "Build the static precompiled stylesheets from Less sources"
+desc "Build the static precompiled stylesheets from SCss sources"
 task :build_static_stylesheets do
-  require 'less'
+  require 'scss'
 
   toolkit_path = File.join('vendor', 'toolkit')
 
-  parser = Less::Parser.new :paths => [toolkit_path]
+  parser = Scss::Parser.new :paths => [toolkit_path]
 
   target_directory = File.expand_path('app/assets/stylesheets/twitter-bootstrap-static')
 

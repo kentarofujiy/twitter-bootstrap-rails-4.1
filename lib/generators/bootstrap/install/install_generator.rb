@@ -42,7 +42,7 @@ module Bootstrap
         else
           copy_file "bootstrap.js", "app/assets/javascripts/bootstrap.js"
         end
-        if use_less?
+        if use_scss?
           copy_file "bootstrap_and_overrides.scss", "app/assets/stylesheets/bootstrap_and_overrides.css.scss"
         else
           copy_file "bootstrap_and_overrides.css", "app/assets/stylesheets/bootstrap_and_overrides.css"
