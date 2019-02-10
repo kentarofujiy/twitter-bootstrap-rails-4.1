@@ -2,13 +2,13 @@ $:.push File.expand_path("../lib", __FILE__)
 require "twitter/bootstrap/rails/version"
 
 Gem::Specification.new do |s|
-  s.name        = "twitter-bootstrap-rails-4.1"
+  s.name        = "twitter-bootstrap-rails-4"
   s.version     = Twitter::Bootstrap::Rails::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Kentaro Fujiy"]
   s.email       = ["kentaro@manacadigital.com.br"]
   s.license     = 'MIT'
-  s.homepage    = "https://github.com/seyhunak/twitter-bootstrap-rails-4.1"
+  s.homepage    = "https://github.com/kentarofujiy/twitter-bootstrap-rails-4"
   s.summary     = %q{Bootstrap CSS toolkit for Rails 5, 4.x Asset Pipeline}
   s.description = %q{twitter-bootstrap-rails project integrates Bootstrap CSS toolkit for Rails 5, 4.x Asset Pipeline}
 
