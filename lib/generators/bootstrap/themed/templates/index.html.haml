@@ -3,7 +3,7 @@
   %h1=t '.title', :default => model_class.model_name.human.pluralize.titleize
 %table.table.table-striped
   %thead
-    %tr
+    %tr HAML
       %th= model_class.human_attribute_name(:id)
       <%- columns.each do |column| -%>
       %th= model_class.human_attribute_name(:<%= column.name %>)
